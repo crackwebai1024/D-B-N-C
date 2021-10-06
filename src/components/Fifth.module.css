@@ -1,0 +1,87 @@
+.error {
+  color: red;
+  background-color: #ff000044;
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.search {
+  display: flex;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  min-width: 500px;
+  margin-right: 40px;
+}
+
+.input_city,
+.inputDate {
+  width: 250px;
+  border: solid 1px #bbbbbb;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.searchBtn {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #2b4de7;
+  color: white;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  padding: 0px 15px;
+}
+
+.table {
+  margin-top: 40px;
+}
+
+.table table {
+  width: 100%;
+}
+
+.table thead,
+.table tr {
+  height: 40px;
+}
+
+.table th {
+  width: 20%;
+}
+
+tr:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.table td,
+.table th {
+  padding-left: 10px;
+}
+
+.weatherData {
+  width: 100%;
+}
+
+.backBtn {
+  background-color: coral;
+  color: black;
+  font-weight: 600;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+.weatherData th,
+.weatherData td {
+  padding-left: 10px;
+  width: 10%;
+  height: 40px;
+}
